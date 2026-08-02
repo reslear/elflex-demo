@@ -1,0 +1,1 @@
+import{a2 as n,ah as o}from"./CbhzpZ19.js";function s(){const t=n();function a(e,u={}){o(e,{route_path:t.path,route_full_path:t.fullPath,route_name:t.name?String(t.name):void 0,...u})}return{track:a}}export{s as u};

@@ -1,0 +1,1 @@
+function i(r,e){if(!r)return;if(/^(?:[a-z][a-z\d+.-]*:)?\/\//i.test(r)||r.startsWith("data:")||r.startsWith("blob:"))return r;const t=e==="/"?"":e.replace(/\/+$/,""),s=`/${r.replace(/^\/+/,"")}`;return`${t}${s}`}export{i as r};
